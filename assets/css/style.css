@@ -66,7 +66,7 @@ html{scroll-behavior:smooth;scroll-padding-top:112px}
 .hero .note{margin:25px 0 0;font-size:13px}
 .hero .note svg,.legal svg{width:16px;height:16px;flex:none;margin-top:1px;color:#f15a63}
 .deal{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:0 0 24px;align-items:stretch}
-.deal .deal-item{position:relative;isolation:isolate;display:flex;flex-direction:column;justify-content:flex-start;min-width:0;min-height:108px;padding:11px 10px;border:1px solid rgba(236,71,85,.33);border-radius:12px;background:linear-gradient(145deg,rgba(39,37,43,.98),rgba(23,24,28,.98));box-shadow:0 9px 18px rgba(0,0,0,.18),inset 0 1px 0 rgba(255,255,255,.035);overflow:hidden;transition:transform .25s,border-color .25s,box-shadow .25s}
+.deal .deal-item{position:relative;isolation:isolate;display:flex;flex-direction:column;justify-content:flex-start;min-width:0;min-height:0;padding:11px 10px 7px;border:1px solid rgba(236,71,85,.33);border-radius:12px;background:linear-gradient(145deg,rgba(39,37,43,.98),rgba(23,24,28,.98));box-shadow:0 9px 18px rgba(0,0,0,.18),inset 0 1px 0 rgba(255,255,255,.035);overflow:hidden;transition:transform .25s,border-color .25s,box-shadow .25s}
 .deal .deal-item::before{content:"";position:absolute;inset:0 0 auto;height:1px;background:linear-gradient(90deg,#ff5964 0%,rgba(231,56,67,.5) 56%,transparent 100%);pointer-events:none}
 .deal .deal-item::after{content:"";position:absolute;z-index:0;top:-65px;right:-75px;width:150px;height:150px;border-radius:50%;background:radial-gradient(circle,rgba(211,40,52,.16),transparent 69%);pointer-events:none}
 .deal .deal-item:hover{transform:translateY(-3px);border-color:rgba(255,90,104,.65);box-shadow:0 14px 24px rgba(0,0,0,.24),0 0 12px rgba(220,36,52,.12)}
@@ -312,7 +312,7 @@ footer p{margin:0;max-width:44em}
   .cond .it{min-height:0;padding:21px 22px}
   .cond .it strong{font-size:39px}
   .deal{gap:6px}
-  .deal .deal-item{min-height:102px;padding:9px 7px;border-radius:10px}
+  .deal .deal-item{min-height:0;padding:9px 7px 6px;border-radius:10px}
   .deal .deal-icon{top:9px;right:7px;width:21px;height:21px;border-radius:7px}
   .deal .deal-icon svg{width:12px;height:12px}
   .deal strong{font-size:clamp(23px,6.5vw,30px)}
